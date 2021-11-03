@@ -113,7 +113,7 @@ Configuration options can be passed in a file named `watchman.conf` which must b
 ```yaml
 github_watchman:
   token: abc123
-  url: https://github.example.com
+  url: https://api.github.com
   logging:
     file_logging:
       path:
