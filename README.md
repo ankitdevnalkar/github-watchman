@@ -129,6 +129,11 @@ An example file is in `docs/example.conf`
 
 **Note** If you use any other Watchman applications and already have a `watchman.conf` file, just append the conf data for GitHub Watchman to the existing file.
 
+### Run Watchman For Perticular Organisation
+- After installing github-watchman in system, open github_wrapper.py located at `/home/<YourLocalUser>/.local/lib/python3.6/site-packages/github_watchman/github_wrapper.py`
+- Find `params = {`(should be around 94th line)
+- Set query parameter to `'q':'org:<YourOrgName> '+query` and save file.
+
 ## Installation
 Install via pip
 
