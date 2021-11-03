@@ -36,7 +36,7 @@ class GitHubAPIClient(object):
         try:
             response = self.session.request(method, url, params=params, data=data, verify=verify_ssl)
             response.raise_for_status()
-
+            time.sleep(2.5)
             return response
 
         except HTTPError as http_error:
