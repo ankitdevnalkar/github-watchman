@@ -137,7 +137,7 @@ An example file is in `docs/example.conf`
 ## Installation
 Install via pip
 
-`pip install github-watchman`
+`pip3 install github-watchman`
 
 Or via source
 
