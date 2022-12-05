@@ -131,7 +131,7 @@ An example file is in `docs/example.conf`
 
 ### Run Watchman For Perticular Organisation
 - After installing github-watchman in system, open github_wrapper.py located at `/home/<YourLocalUser>/.local/lib/python3.6/site-packages/github_watchman/github_wrapper.py`
-- Find `params = {`(should be around 94th line)
+- Find `params = {`(should be around line 82)
 - Set query parameter to `'q':'org:<YourOrgName> '+query` and save file.
 
 ## Installation
